@@ -1,0 +1,71 @@
+
+.box{
+    border-radius: 5px;
+
+}
+
+.box:hover{
+    box-shadow: 0 0 3px #a4cce4;
+    transition-duration: 200ms;
+}
+
+.box:hover .image{
+    transition: all 200ms;
+    background-color: #0b72e7;
+}
+
+.feature-sec-2{
+    position: relative;
+    background-image: url(pictures/feature-section-2BG.svg);
+    background-position: 25%;
+}
+
+.green-box{
+    transform: skew(25deg);
+    opacity: 0.9;
+}
+
+.feature3-card{
+    background-image: url(pictures/instant-settlement-bg.svg);
+}
+
+.feature3-card:hover{
+    background-image: url(pictures/instant-settlement-bghover.svg);
+}
+
+.core-sec{
+    background-image: url(pictures/core-features-sectionBg.svg);
+    background-size: 100% 100%;
+}
+
+
+
+.companiesList{
+   
+    animation:companiesList 10s linear infinite;
+  }
+
+  @keyframes companiesList {
+    0%{
+        top:0;
+      }
+      100%{
+        top:-50%;
+      }
+    
+  }
+
+.fadedTop{
+    background: linear-gradient(180deg, #f4f8ff, #fff0);
+}
+
+.fadedBottom{
+    background: linear-gradient(0deg, #f4f8ff, #fff0);
+}
+
+.cta{
+    /* background-size: 100% 100%; */
+    background-repeat: no-repeat;
+    background-image: url(pictures/CTABg.svg);
+}
+
